@@ -1,0 +1,101 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 Microsoft, Microsoft, LIC=S5ITG-V5G2Q-BXVUY-I5T0J-4HUEL-MI8C5
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.29.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+F:\5530BNEW\Project\JK_BTSET.uvproj
+Project File Date:  01/28/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'JK_BTSET'
+compiling TIM6.c...
+..\drive\TIM6.c(132): warning:  #223-D: function "ResetPow" declared implicitly
+                           ResetPow();
+..\drive\TIM6.c(134): warning:  #223-D: function "ResetCDC" declared implicitly
+                           ResetCDC();
+..\drive\TIM6.c(136): warning:  #223-D: function "ResetR" declared implicitly
+                           ResetR();
+..\drive\TIM6.c(138): warning:  #223-D: function "ResetLoad" declared implicitly
+                           ResetLoad();
+..\drive\TIM6.c(140): warning:  #223-D: function "ResetG" declared implicitly
+                           ResetG();
+..\drive\TIM6.c(142): warning:  #223-D: function "ResetSET" declared implicitly
+                           ResetSET();
+..\drive\TIM6.c(167): warning:  #223-D: function "IO_OFF" declared implicitly
+                                        IO_OFF();
+..\drive\TIM6.c(182): warning:  #223-D: function "IO_OFF" declared implicitly
+                                        IO_OFF();                       
+..\drive\TIM6.c(215): warning:  #223-D: function "IO_OFF" declared implicitly
+                                        IO_OFF();
+..\drive\TIM6.c(231): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                if(((v - DISS_Voltage) > v*0.6) || (DISS_Current < 0.05))
+..\drive\TIM6.c(231): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                if(((v - DISS_Voltage) > v*0.6) || (DISS_Current < 0.05))
+..\drive\TIM6.c(233): warning:  #223-D: function "IO_OFF" declared implicitly
+                                        IO_OFF();
+..\drive\TIM6.c(250): warning:  #223-D: function "IO_OFF" declared implicitly
+                                        IO_OFF();                
+..\drive\TIM6.c(255): warning:  #223-D: function "IO_OFF" declared implicitly
+                                 IO_OFF();
+..\drive\TIM6.c(276): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+              if(crec1 < crec2 && crec2 > 0.3)
+..\drive\TIM6.c(338): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+              if(((shortv - DISS_Voltage) > shortv*0.6) || (DISS_Current < 0.05))
+..\drive\TIM6.c(338): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+              if(((shortv - DISS_Voltage) > shortv*0.6) || (DISS_Current < 0.05))
+..\drive\TIM6.c(340): warning:  #223-D: function "IO_OFF" declared implicitly
+                  IO_OFF();
+..\drive\TIM6.c(365): warning:  #223-D: function "IO_OFF" declared implicitly
+                  IO_OFF();                
+..\drive\TIM6.c(106): warning:  #177-D: variable "crec"  was declared but never referenced
+      u8 crec[6];
+..\drive\TIM6.c(107): warning:  #177-D: variable "csend"  was declared but never referenced
+      u8 *csend;
+..\drive\TIM6.c(108): warning:  #177-D: variable "sendbuf"  was declared but never referenced
+      static u8 *sendbuf;
+..\drive\TIM6.c(109): warning:  #177-D: variable "sendlen"  was declared but never referenced
+      u8 sendlen;
+..\drive\TIM6.c(110): warning:  #177-D: variable "recrc"  was declared but never referenced
+      static u16 recrc;
+..\drive\TIM6.c(111): warning:  #177-D: variable "scrc"  was declared but never referenced
+      static u16 scrc;
+..\drive\TIM6.c(113): warning:  #177-D: variable "i"  was declared but never referenced
+      u8 i;
+..\drive\TIM6.c(684): warning:  #223-D: function "UART_Action" declared implicitly
+          UART_Action();
+..\drive\TIM6.c(619): warning:  #177-D: variable "addr"  was declared but never referenced
+        uint16_t addr;
+..\drive\TIM6.c(620): warning:  #177-D: variable "crc1"  was declared but never referenced
+        static uint16_t crc1;
+..\drive\TIM6.c: 29 warnings, 0 errors
+compiling MainTask.c...
+..\STemWinLibrary522\emWinTask\MainTask.c(76): warning:  #223-D: function "CreateSTARTER" declared implicitly
+      CreateSTARTER();
+..\STemWinLibrary522\emWinTask\MainTask.c: 1 warning, 0 errors
+linking...
+Program Size: Code=183674 RO-data=126330 RW-data=2344 ZI-data=34648  
+FromELF: creating hex file...
+"..\Output\JK_BTSET.axf" - 0 Error(s), 30 Warning(s).
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
